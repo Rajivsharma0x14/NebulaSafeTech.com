@@ -1807,8 +1807,42 @@ section {
 }
 
 .member .pic img {
-  width: 180px; /* Set the width of the image */
-  height: 180px; /* Set the height of the image */
+  width: 300px; /* Set the width of the image */
+  height: 300px; /* Set the height of the image */
   object-fit: cover; /* Ensure the image covers the entire space without distortion */
   border-radius: 50%; /* Make the image circular */
+}
+
+.member {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 30px; /* Adjust as needed for spacing between cards */
+}
+
+.member-info {
+  margin-top: 20px; /* Adjust as needed for spacing between image and text */
+}
+
+.pic img {
+  width: 150px; /* Set the width of the image */
+  height: 150px; /* Set the height of the image */
+  object-fit: cover; /* Ensure the image covers the entire space without distortion */
+  border-radius: 50%; /* Make the image circular */
+}
+
+.social-links {
+  margin-top: 10px; /* Adjust as needed for spacing between text and social icons */
+  display: flex;
+  justify-content: center;
+}
+
+.social-links a {
+  margin: 0 5px; /* Adjust as needed for spacing between social icons */
+}
+
+.social-links i {
+  font-size: 24px; /* Adjust the size of the icons as needed */
 }
