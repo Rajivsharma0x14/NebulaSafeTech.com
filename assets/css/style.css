@@ -1805,3 +1805,17 @@ section {
     padding-top: 4px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .center-card {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .center-card {
+    display: flex;
+    justify-content: center;
+  }
+}
