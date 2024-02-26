@@ -1806,3 +1806,9 @@ section {
   }
 }
 
+.member .pic img {
+  width: 200px; /* Set the width of the image */
+  height: 200px; /* Set the height of the image */
+  object-fit: cover; /* Ensure the image covers the entire space without distortion */
+  border-radius: 50%; /* Make the image circular */
+}
